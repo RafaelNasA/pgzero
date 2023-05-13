@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(110deg, black 60%, #ca7175f3);
+    background-repeat: no-repeat ;
+}
+
+h1{
+    padding: 30px 0px;
+    text-align: center;
+    color:#b96d71;
+}
+
+.comprar{
+    text-decoration: none;
+    color: white;
+    background: #eb7d83;
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+
+header{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+a{
+    color: rgb(63, 192, 192);
+}
+
+p{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.material{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.acabamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.durabilidade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.garantia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.depoimento{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+img{
+    justify-self: right;
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0.5px 0px 1px 1px #ca717573;
+}
+
+p{
+    align-self: center;
+    max-width: 50ch;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.whats{
+    display:grid;
+    grid-template-columns: 1fr 40px;
+    
+}
+
+.wpp{
+    box-shadow: none;
+}
+
+.d{
+    box-shadow: none;
+}
+
+footer{
+    display: grid;
+    justify-items: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.direitos{
+    font-size: 13px;
+}
+
+.duvida{
+    max-width: 300px;
+}
+
+@media(max-width:500px){
+    .material{
+        grid-template-columns: 1fr;
+    }
+    .acabamento{
+        grid-template-columns: 1fr;
+    }
+    .durabilidade{
+        grid-template-columns: 1fr;
+    }
+    .garantia{
+        grid-template-columns: 1fr;
+    }
+    .contato{
+        grid-template-columns: 1fr;
+    }
+    p{
+        max-width: 43ch;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    img{
+        max-width: 90%;
+        justify-self:center;
+    }
+
+    .feedback{
+        display: none;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    .comprar{
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+    .duvida{
+        word-break: break-all;
+        max-width: 26ch;
+    }
+
+    .d{
+        max-width: 120px;
+    }
+}
